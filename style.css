@@ -45,7 +45,7 @@ p {
   align-items: center;
 }
 
-.section1Text p {
+h2 {
   color: #330099;
   font-family: 'swagger_ttfregular';
   font-weight: bold;
@@ -153,4 +153,8 @@ p {
   background-position: center;
   margin-top: 5vh;
   color: black;
+}
+
+#text2 {
+  color: #FFE900;
 }
