@@ -9,8 +9,8 @@ h1, h2, h3, h4 {
 }
 
 p {
-  font-size: 3vmin;
-  color: black;
+  font-size: 2vmin;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 @font-face {
@@ -26,7 +26,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 200vh;
+  height: 350vh;
   background: #FFE900;
 }
 
@@ -52,6 +52,7 @@ h2 {
   font-size: 2vw;
   letter-spacing: 1vw;
   margin: 0;
+  text-align: center;
 }
 
 #heroText {
@@ -72,50 +73,48 @@ h2 {
 }
 
 .section1Img {
-  transition: all 0.5s;
-
+  transition: all 0.6s;
   display: flex;
   background: url("news.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 80vh;
-  width: 40vw;
+  height: 90vh;
+  width: 90vh;
   text-align: center;
   align-items: center;
 }
 
 .section1Img:hover {
   display: flex;
-  background: url("news2.jpg");
+  background: url("news3.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 80vh;
-  width: 40vw;
+  height: 90vh;
+  width: 90vh;
   text-align: center;
   align-items: center;
 }
 
 .section1Wrapper2 {
   display: flex;
-  flex-direction: row;
-  /* justify-content: center; */
+  flex-direction: column;
+  justify-content: center;
   margin: 0 5vw 0 5vw;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
-
 .textBox1 {
-  width: 40vw;
-  padding: 2vw 0 0 2vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 60vh;
+  /* padding: 2vw 0 2vw 0; */
 }
 
 .textBox1 p {
-  font-size: 2vmin;
-  font-family: 'Noto Sans KR', sans-serif;
   color: #330099;
-  text-align: justify;
 }
 
 /* ----------------------------------------------------------------- */
@@ -129,13 +128,20 @@ h2 {
 }
 
 /* ----------------------------------------------------------------- */
-
 .section2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 200vh;
   background: #330099;
+}
+
+.section2Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 5vw 0 5vw;
+  height: 100vh;
 }
 
 #heroText2 {
@@ -159,6 +165,11 @@ h2 {
   color: #FFE900;
 }
 
+.textBox2 {
+  color: #FFE900;
+  width: 40vw;
+}
+
 /* ----------------------------------------------------------------- */
 .section2Transition {
   background: url("gradient2.jpg");
@@ -170,13 +181,20 @@ h2 {
 }
 
 /* ----------------------------------------------------------------- */
-
 .section3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 200vh;
-    background: #F2059F;
+  background: #F2059F;
+}
+
+.section3Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 5vw 0 5vw;
+  height: 100vh;
 }
 
 #heroText3 {
@@ -200,6 +218,11 @@ h2 {
   color: white;
 }
 
+.textBox3 {
+  color: white;
+  width: 40vw;
+}
+
 /* ----------------------------------------------------------------- */
 .section3Transition {
   background: url("gradient3.jpg");
@@ -211,13 +234,20 @@ h2 {
 }
 
 /* ----------------------------------------------------------------- */
-
 .section4 {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 200vh;
-    background: white;
+  background: white;
+}
+
+.section4Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 5vw 0 5vw;
+  height: 100vh;
 }
 
 #heroText4 {
@@ -239,4 +269,9 @@ h2 {
 
 #text4 {
   color: #F2059F;
+}
+
+.textBox4 {
+  color: #F2059F;
+  width: 40vw;
 }
