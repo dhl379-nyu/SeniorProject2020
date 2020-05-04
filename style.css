@@ -9,8 +9,10 @@ h1, h2, h3, h4 {
 }
 
 p {
+  line-height: 1.8em;
   font-size: 2vmin;
   font-family: 'Noto Sans KR', sans-serif;
+  /* text-align: justify; */
 }
 
 @font-face {
@@ -49,9 +51,10 @@ h2 {
   color: #330099;
   font-family: 'swagger_ttfregular';
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 2.5vw;
   letter-spacing: 1vw;
   margin: 0;
+  margin-top: 1em;
   text-align: center;
 }
 
@@ -73,7 +76,6 @@ h2 {
 }
 
 .section1Img {
-  transition: all 0.6s;
   display: flex;
   background: url("news.jpg");
   background-position: center;
@@ -85,16 +87,14 @@ h2 {
   align-items: center;
 }
 
-.section1Img:hover {
-  display: flex;
-  background: url("news3.png");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 90vh;
-  width: 90vh;
-  text-align: center;
-  align-items: center;
+.section1Img > img {
+  width: 100%;
+  opacity: 0.0;
+  transition: opacity 0.8s;
+}
+
+.section1Img > img:hover {
+  opacity: 1.0;
 }
 
 .section1Wrapper2 {
@@ -117,6 +117,28 @@ h2 {
   color: #330099;
 }
 
+.section1Img2 {
+  display: flex;
+  background: url("Seoul.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 120vh;
+  text-align: center;
+  align-items: center;
+}
+
+.section1Img2 > img {
+  width: 100%;
+  opacity: 0.0;
+  transition: opacity 0.8s;
+}
+
+.section1Img2 > img:hover {
+  opacity: 1.0;
+}
+
 /* ----------------------------------------------------------------- */
 .section1Transition {
   background: url("gradient1.jpg");
@@ -132,7 +154,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 200vh;
+  height: 300vh;
   background: #330099;
 }
 
@@ -167,7 +189,29 @@ h2 {
 
 .textBox2 {
   color: #FFE900;
-  width: 40vw;
+  width: 60vh;
+}
+
+.section2Img {
+  display: flex;
+  background: url("GFC.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 110vh;
+  text-align: center;
+  align-items: center;
+}
+
+.section2Img > img {
+  width: 100%;
+  opacity: 0.0;
+  transition: opacity 0.8s;
+}
+
+.section2Img > img:hover {
+  opacity: 1.0;
 }
 
 /* ----------------------------------------------------------------- */
@@ -185,7 +229,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 200vh;
+  height: 300vh;
   background: #F2059F;
 }
 
@@ -220,7 +264,29 @@ h2 {
 
 .textBox3 {
   color: white;
-  width: 40vw;
+  width: 60vh;
+}
+
+.section3Img {
+  display: flex;
+  background: url("paris1.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 90vh;
+  text-align: center;
+  align-items: center;
+}
+
+.section3Img > img {
+  width: 100%;
+  opacity: 0.0;
+  transition: opacity 0.8s;
+}
+
+.section3Img > img:hover {
+  opacity: 1.0;
 }
 
 /* ----------------------------------------------------------------- */
@@ -238,7 +304,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 200vh;
+  height: 300vh;
   background: white;
 }
 
@@ -273,5 +339,27 @@ h2 {
 
 .textBox4 {
   color: #F2059F;
-  width: 40vw;
+  width: 60vh;
+}
+
+.section4Img {
+  display: flex;
+  background: url("newyork2.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 110vh;
+  text-align: center;
+  align-items: center;
+}
+
+.section4Img > img {
+  width: 100%;
+  opacity: 0.0;
+  transition: opacity 0.8s;
+}
+
+.section4Img > img:hover {
+  opacity: 1.0;
 }
