@@ -28,7 +28,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 350vh;
+  height: 360vh;
   background: #FFE900;
 }
 
@@ -214,6 +214,18 @@ h2 {
   opacity: 1.0;
 }
 
+.section2Img2 {
+  display: flex;
+  background: url("Coin.gif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 110vh;
+  text-align: center;
+  align-items: center;
+}
+
 /* ----------------------------------------------------------------- */
 .section2Transition {
   background: url("gradient2.jpg");
@@ -287,6 +299,18 @@ h2 {
 
 .section3Img > img:hover {
   opacity: 1.0;
+}
+
+.section3Img2 {
+  display: flex;
+  background: url("AK103.gif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 110vh;
+  text-align: center;
+  align-items: center;
 }
 
 /* ----------------------------------------------------------------- */
